@@ -1,4 +1,3 @@
-
 # Flutter Login + Home App (BLoC State Management)
 
 ## 📱 Overview
@@ -7,6 +6,10 @@ This Flutter application has two main screens:
 2. **Home Screen** – Fetches and displays 10 random images from [Picsum](https://picsum.photos/) using an API.
 
 The project uses **BLoC (Business Logic Component)** for state management, ensuring clean separation of UI and business logic.
+
+/screenshots/login.png     ← from 1000150547.png  
+/screenshots/home.png      ← from 1000150548.png  
+
 
 ---
 
@@ -39,6 +42,10 @@ The project uses **BLoC (Business Logic Component)** for state management, ensur
 - **Google Fonts** for custom typography
 
 ---
+📥 Download APK
+You can download and install the latest APK here
+https://drive.google.com/file/d/1MwsRuT5lmL7AkGUxA6r7Vci8VKmQkquK/view?usp=sharing
+---
 
 ## 🚀 How to Run Locally
 
@@ -57,4 +64,3 @@ flutter pub get
 
 # 3. Run on connected device
 flutter run
-
