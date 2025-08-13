@@ -10,7 +10,7 @@ The project uses **BLoC (Business Logic Component)** for state management, ensur
 ## 🖼 Screenshots
 
 ### Login Screen
-![Login Screen](https://github.com/MojeshReddy/flutter-application/blob/main/images/1000150548.png)
+![Login Screen](https://github.com/MojeshReddy/flutter-application/blob/main/images/1000150547.png)
 
 ### Home Screen
 ![Home Screen](https://github.com/MojeshReddy/flutter-application/blob/main/images/1000150548.png)
