@@ -1,16 +1,58 @@
-# my_app
+# Flutter Login + Home App (BLoC State Management)
 
-A new Flutter project.
+## 📱 Overview
+This Flutter application has two main screens:
+1. **Login Screen** – Validates user email and password before allowing login.
+2. **Home Screen** – Fetches and displays 10 random images from [Picsum](https://picsum.photos/) using an API.
 
-## Getting Started
+The project uses **BLoC (Business Logic Component)** for state management, ensuring clean separation of UI and business logic.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🎯 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 1. Login Screen
+- **Email Validation** – Checks for proper email format.
+- **Password Validation** – Minimum 8 characters, at least:
+  - One uppercase letter
+  - One lowercase letter
+  - One number
+  - One special symbol
+- **Navigation** – On successful login, navigates to Home Screen.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 2. Home Screen
+- Fetches 10 images from the **Picsum API**:  
+  `https://picsum.photos/v2/list?page=1&limit=10`
+- Displays images in a vertical list with:
+  - Full screen width
+  - Auto height based on aspect ratio
+  - Title (Montserrat Semi-Bold)
+  - Description (Montserrat Regular, dark grey, max 2 lines)
+
+---
+
+## 🛠 Tech Stack
+- **Flutter** (Dart)
+- **BLoC** – [`flutter_bloc`](https://pub.dev/packages/flutter_bloc)
+- **HTTP package** for API calls
+- **Google Fonts** for custom typography
+
+---
+
+## 🚀 How to Run Locally
+
+### Prerequisites
+- Flutter SDK installed → [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Android Studio / SDK or physical Android device with USB debugging enabled
+
+### Steps
+```bash
+# 1. Clone this repository
+git clone https://github.com/MojeshReddy/flutter-application.git
+cd flutter-application
+
+# 2. Install dependencies
+flutter pub get
+
+# 3. Run on connected device
+flutter run
