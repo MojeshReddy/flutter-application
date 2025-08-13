@@ -7,8 +7,14 @@ This Flutter application has two main screens:
 
 The project uses **BLoC (Business Logic Component)** for state management, ensuring clean separation of UI and business logic.
 
-images/1000150547.png  
-images/1000150548.png
+## 🖼 Screenshots
+
+### Login Screen
+![Login Screen]([https://github.com/MojeshReddy/flutter-application/blob/main/images/1000150548.png])
+
+### Home Screen
+![Home Screen]([https://github.com/MojeshReddy/flutter-application/blob/main/images/1000150548.png])
+
 
 
 ---
